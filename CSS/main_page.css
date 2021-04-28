@@ -1,0 +1,202 @@
+body {
+  height: 1080px;
+  max-width: 1920px;
+  margin: 0;
+}
+
+.main {
+  position: absolute;
+  width: 680px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+
+.pineapple_image {
+  position: absolute;
+  width: 1240px;
+  height: 1080px;
+  left: 680px;
+  top: 0px;
+  background: url("/./Images/image_summer.jpg");
+  z-index: -1;
+}
+
+/* Top bar section */
+.top_bar img {
+  position: absolute;
+  width: 118px;
+  height: 40px;
+  left: 100px;
+  top: 100px;
+}
+
+.top_bar a {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6A707B;
+}
+
+.about-link {
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  left: 331px;
+  top: 114px;
+  text-decoration: none;
+}
+
+.works-link {
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 403px;
+  top: 114px;
+  text-decoration: none;
+}
+
+.contact-link {
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 524px;
+  top: 114px;
+  text-decoration: none;
+  /* Headers section */
+}
+
+h1 {
+  position: absolute;
+  width: 399px;
+  height: 44px;
+  left: 140px;
+  top: 374px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #131821;
+}
+
+h2 {
+  position: absolute;
+  width: 400px;
+  height: 56px;
+  left: 140px;
+  top: 433px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+/* Input box */
+.vl {
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+  background: #4066A5;
+}
+
+input[type=email] {
+  position: absolute;
+  width: 663px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E4;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+::placeholder {
+  position: absolute;
+  width: 227px;
+  height: 24px;
+  left: 144px;
+  top: 562px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6A707B;
+}
+
+input[type=submit] {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  left: 699px;
+  top: 567px;
+  background: #131821;
+  opacity: 0.3;
+  color: white;
+}
+
+p {
+  position: absolute;
+  left: 420px;
+  top: 600px;
+}
+
+ul {
+  position: absolute;
+  left: 420px;
+  top: 620px;
+  /* Terms of service */
+}
+
+.TOS input[type=checkbox] {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+  background: #4066A5;
+  border-radius: 3px;
+}
+.TOS label {
+  position: absolute;
+  width: 359px;
+  height: 28px;
+  left: 181px;
+  top: 662px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+.TOS a {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+/* Decorative line */ 
+.line {
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 140px;
+  top: 740px;
+  background: #E3E3E4;
+}
+
+/*# sourceMappingURL=main_page.css.map */
